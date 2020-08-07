@@ -1,10 +1,17 @@
 # the-catalin notes:
-The contents of this repository is obtained by running locally these commands:<br>
-git clone https://github.com/the-catalin/angularfire<br>
+Detailed issue that is fixed in this repo: https://stackoverflow.com/questions/60741145/sharding-to-multiple-databases-with-angularfire2<br><br>
+The contents of this repository are obtained by running locally these commands:<br>
+git clone https://github.com/the-catalin/angularfire (original angularfire repo is this https://github.com/angular/angularfire, branch 2.0.0-beta.8)<br>
 cd angularfire<br>
 git checkout sharding-fix<br>
 yarn install<br>
 npm run build_npm<br><br>
+The build result was taken from dist folder and put here, in this repo.<br><br>
+Then, in my projects I can use<br>
+npm i --save the-catalin/angularfire2<br>
+which results in<br>
+"angularfire2": "github:the-catalin/angularfire2"<br>
+in package.json file<br>
 
 <p align="center">
   <h1 align="center">AngularFire2</h1>
