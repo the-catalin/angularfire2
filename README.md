@@ -1,3 +1,11 @@
+## the-catalin notes:
+The contents of this repository is obtained by running locally these commands:
+git clone https://github.com/the-catalin/angularfire
+cd angularfire
+git checkout sharding-fix
+yarn install
+npm run build_npm
+
 <p align="center">
   <h1 align="center">AngularFire2</h1>
   <p align="center">The official library for Firebase and Angular 2</p>
