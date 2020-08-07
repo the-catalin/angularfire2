@@ -1,10 +1,10 @@
-## the-catalin notes:
-The contents of this repository is obtained by running locally these commands:
-git clone https://github.com/the-catalin/angularfire
-cd angularfire
-git checkout sharding-fix
-yarn install
-npm run build_npm
+# the-catalin notes:
+The contents of this repository is obtained by running locally these commands:<br>
+git clone https://github.com/the-catalin/angularfire<br>
+cd angularfire<br>
+git checkout sharding-fix<br>
+yarn install<br>
+npm run build_npm<br><br>
 
 <p align="center">
   <h1 align="center">AngularFire2</h1>
